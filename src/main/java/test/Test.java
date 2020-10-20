@@ -20,4 +20,8 @@ public class Test {
     public String hello(){
         return "hello world！";
     }
+
+    public static void main(String[] args) {
+        SpringApplication.run(Test.class, args);
+    }
 }
