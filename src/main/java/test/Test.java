@@ -22,6 +22,13 @@ public class Test {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(Test.class, args);
+
+        int a=2;
+        System.out.println(3<<a);
+
+        Bean jack = new Bean();
+
+
+        System.out.println(jack.getName());
     }
 }
